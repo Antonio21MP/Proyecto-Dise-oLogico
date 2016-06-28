@@ -1,0 +1,4 @@
+verilog work "ROM.V"
+verilog work "CLK_DIV2.v"
+verilog work "CLK_DIV.V"
+verilog work "MAIN.V"

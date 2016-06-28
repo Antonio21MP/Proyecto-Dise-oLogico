@@ -1,0 +1,172 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml MAIN.twx MAIN.ncd -o MAIN.twr MAIN.pcf -ucf MAPEO.ucf
+
+Design file:              MAIN.ncd
+Physical constraint file: MAIN.pcf
+Device,package,speed:     xc3s500e,ft256,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock c to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+data<0>     |   11.343(R)|temp              |   0.000|
+data<1>     |   11.387(R)|temp              |   0.000|
+data<2>     |   12.037(R)|temp              |   0.000|
+data<3>     |   10.271(R)|temp              |   0.000|
+ledsx<0>    |   10.379(R)|temp              |   0.000|
+ledsx<1>    |   10.361(R)|temp              |   0.000|
+ledsx<2>    |   10.410(R)|temp              |   0.000|
+ledsx<3>    |   10.493(R)|temp              |   0.000|
+ledsx<4>    |   10.213(R)|temp              |   0.000|
+ledsx<5>    |   10.136(R)|temp              |   0.000|
+ledsx<6>    |   10.465(R)|temp              |   0.000|
+ledsx<7>    |   11.014(R)|temp              |   0.000|
+ledsy<0>    |    9.707(R)|temp              |   0.000|
+ledsy<1>    |   10.207(R)|temp              |   0.000|
+ledsy<2>    |   10.464(R)|temp              |   0.000|
+ledsy<3>    |   10.373(R)|temp              |   0.000|
+ledsy<4>    |   10.873(R)|temp              |   0.000|
+ledsy<5>    |   10.373(R)|temp              |   0.000|
+ledsy<6>    |   10.124(R)|temp              |   0.000|
+ledsy<7>    |   10.133(R)|temp              |   0.000|
+------------+------------+------------------+--------+
+
+Clock d to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+data<0>     |   11.617(R)|temp              |   0.000|
+data<1>     |   11.661(R)|temp              |   0.000|
+data<2>     |   12.311(R)|temp              |   0.000|
+data<3>     |   10.545(R)|temp              |   0.000|
+ledsx<0>    |   10.653(R)|temp              |   0.000|
+ledsx<1>    |   10.635(R)|temp              |   0.000|
+ledsx<2>    |   10.684(R)|temp              |   0.000|
+ledsx<3>    |   10.767(R)|temp              |   0.000|
+ledsx<4>    |   10.487(R)|temp              |   0.000|
+ledsx<5>    |   10.410(R)|temp              |   0.000|
+ledsx<6>    |   10.739(R)|temp              |   0.000|
+ledsx<7>    |   11.288(R)|temp              |   0.000|
+ledsy<0>    |    9.981(R)|temp              |   0.000|
+ledsy<1>    |   10.481(R)|temp              |   0.000|
+ledsy<2>    |   10.738(R)|temp              |   0.000|
+ledsy<3>    |   10.647(R)|temp              |   0.000|
+ledsy<4>    |   11.147(R)|temp              |   0.000|
+ledsy<5>    |   10.647(R)|temp              |   0.000|
+ledsy<6>    |   10.398(R)|temp              |   0.000|
+ledsy<7>    |   10.407(R)|temp              |   0.000|
+------------+------------+------------------+--------+
+
+Clock e to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+data<0>     |   11.453(R)|temp              |   0.000|
+data<1>     |   11.497(R)|temp              |   0.000|
+data<2>     |   12.147(R)|temp              |   0.000|
+data<3>     |   10.381(R)|temp              |   0.000|
+ledsx<0>    |   10.489(R)|temp              |   0.000|
+ledsx<1>    |   10.471(R)|temp              |   0.000|
+ledsx<2>    |   10.520(R)|temp              |   0.000|
+ledsx<3>    |   10.603(R)|temp              |   0.000|
+ledsx<4>    |   10.323(R)|temp              |   0.000|
+ledsx<5>    |   10.246(R)|temp              |   0.000|
+ledsx<6>    |   10.575(R)|temp              |   0.000|
+ledsx<7>    |   11.124(R)|temp              |   0.000|
+ledsy<0>    |    9.817(R)|temp              |   0.000|
+ledsy<1>    |   10.317(R)|temp              |   0.000|
+ledsy<2>    |   10.574(R)|temp              |   0.000|
+ledsy<3>    |   10.483(R)|temp              |   0.000|
+ledsy<4>    |   10.983(R)|temp              |   0.000|
+ledsy<5>    |   10.483(R)|temp              |   0.000|
+ledsy<6>    |   10.234(R)|temp              |   0.000|
+ledsy<7>    |   10.243(R)|temp              |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock c
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+c              |    6.582|         |         |         |
+d              |    6.582|         |         |         |
+e              |    6.582|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    7.273|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock d
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+c              |    6.582|         |         |         |
+d              |    6.582|         |         |         |
+e              |    6.582|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock e
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+c              |    6.582|         |         |         |
+d              |    6.582|         |         |         |
+e              |    6.582|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Jun 28 04:03:22 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 120 MB
+
+
+

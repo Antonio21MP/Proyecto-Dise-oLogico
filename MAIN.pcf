@@ -1,0 +1,32 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Jun 28 04:02:37 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "c" LOCATE = SITE "C13" LEVEL 1;
+COMP "d" LOCATE = SITE "D12" LEVEL 1;
+COMP "e" LOCATE = SITE "C12" LEVEL 1;
+COMP "clk" LOCATE = SITE "B8" LEVEL 1;
+COMP "data<0>" LOCATE = SITE "D10" LEVEL 1;
+COMP "data<1>" LOCATE = SITE "E10" LEVEL 1;
+COMP "data<2>" LOCATE = SITE "E11" LEVEL 1;
+COMP "data<3>" LOCATE = SITE "A10" LEVEL 1;
+COMP "ledsx<0>" LOCATE = SITE "A7" LEVEL 1;
+COMP "ledsx<1>" LOCATE = SITE "D8" LEVEL 1;
+COMP "ledsx<2>" LOCATE = SITE "C8" LEVEL 1;
+COMP "ledsx<3>" LOCATE = SITE "F9" LEVEL 1;
+COMP "ledsy<0>" LOCATE = SITE "F8" LEVEL 1;
+COMP "ledsx<4>" LOCATE = SITE "E9" LEVEL 1;
+COMP "ledsy<1>" LOCATE = SITE "A5" LEVEL 1;
+COMP "ledsx<5>" LOCATE = SITE "E8" LEVEL 1;
+COMP "ledsy<2>" LOCATE = SITE "A4" LEVEL 1;
+COMP "ledsx<6>" LOCATE = SITE "A9" LEVEL 1;
+COMP "ledsy<3>" LOCATE = SITE "D6" LEVEL 1;
+COMP "ledsx<7>" LOCATE = SITE "D9" LEVEL 1;
+COMP "ledsy<4>" LOCATE = SITE "B4" LEVEL 1;
+COMP "ledsy<5>" LOCATE = SITE "C6" LEVEL 1;
+COMP "ledsy<6>" LOCATE = SITE "E7" LEVEL 1;
+COMP "ledsy<7>" LOCATE = SITE "D7" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
